@@ -1,0 +1,24 @@
+
+.navBar{
+    font-size: 20px;
+    justify-content: center;
+    max-height: 5vh;
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    border-bottom: #50E5CB solid 3px;
+    padding-bottom: 2%;
+}
+
+.navLink{
+    text-align: end;
+    text-decoration: none;
+    color: #50E5CB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vw;
+}
+
+

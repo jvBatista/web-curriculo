@@ -1,0 +1,14 @@
+.batListItemName{
+    font-weight: bold;
+}
+
+.batListItemDate{
+    font-weight: bold;
+    align-items: center;
+    text-align: end;
+    padding-right: 2vw;
+}
+
+.batListItem{
+    padding: 1%;
+}

@@ -1,0 +1,20 @@
+.batHabilities{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.batCourses{
+    min-height: 50vh;
+    background-color: #50E5CB;
+    color: #2C2F36;
+}
+
+.batList{
+    width: 90vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+}

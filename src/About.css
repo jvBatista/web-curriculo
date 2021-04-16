@@ -1,0 +1,32 @@
+.batProfile{
+    align-items: center;
+    height: auto;
+    min-width: 33%;
+  }
+  
+.batIcon{
+    width: 5vw;
+}
+  
+.batProfilePic{
+    border-radius: 100%;
+    padding: 1vh;
+    max-width: 10%;
+}
+
+.batFormaçao{
+    height: auto;
+    background-color: #50E5CB;
+    color: #2C2F36;
+}
+
+.batSocialCards{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.batProfileText{
+    font-size: 1.2rem;
+    padding: 2%;
+}
