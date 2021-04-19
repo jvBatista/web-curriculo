@@ -1,10 +1,15 @@
 .app{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #2C2F36;
   color: #50E5CB;
   min-height: 100vh;
   min-width: 100vw;
+}
+
+.batProfilePic{
+  border-radius: 100%;
+  padding: 2vh;
+  max-width: 10%;
 }
 
 .batWellcomeText{
@@ -18,16 +23,10 @@
   align-items: center;
 }
 
-.batLink{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #50E5CB;
-  text-decoration: none;
-  align-self: center;
-}
-
 .batTitle{
+  font-family: 'Metrophobic', sans-serif;
+  font-size: 28px;
+  font-weight: lighter;
   padding: 1.5%;
 }
 

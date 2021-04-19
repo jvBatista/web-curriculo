@@ -3,6 +3,7 @@ import "./App.css";
 import "./About.css";
 import ItemListavel from "./ItemListavel";
 import SocialCard from "./SocialCard";
+import NavBar from './NavBar';
 import icon_insta from "./assets/icon_insta.png"
 import icon_email from "./assets/icon_email.png"
 
@@ -10,6 +11,7 @@ function About(){
 
   return(
     <div className="batPage">
+      <NavBar />
       <section className="batProfile">
         <h1 className="batTitle">PERFIL</h1>
         <div className="batProfileText">

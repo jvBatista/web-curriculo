@@ -1,12 +1,14 @@
 import React from 'react';
 import "./Habilidades.css";
 import "./App.css";
+import NavBar from './NavBar';
 import ItemListavel from "./ItemListavel";
 
 function About(){
 
   return(
     <div className="batPage">
+      <NavBar />
       <section className="batHabilities">
         <h1 className="batTitle">HABILIDADES TÉCNICAS</h1>
         <ul className="batList">

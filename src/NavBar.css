@@ -1,24 +1,26 @@
 
 .navBar{
     font-size: 20px;
-    justify-content: center;
-    max-height: 5vh;
-    min-width: 80vw;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    min-width: 50vw;
     display: flex;
     flex-direction: row;
     text-align: end;
-    border-bottom: #50E5CB solid 3px;
-    padding-bottom: 2%;
+    border-bottom: #50E5CB solid 1px;
 }
 
 .navLink{
-    text-align: end;
+    text-align: left;
     text-decoration: none;
     color: #50E5CB;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 15vw;
+    width: auto;
+    padding-left: 3vw;
+    
 }
 
-
+.navLink :hover{
+    transform: scale(1.25);
+    color:#c5e4f3;
+}

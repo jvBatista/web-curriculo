@@ -1,4 +1,5 @@
 .batHabilities{
+    font-family: 'Monda', sans-serif;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -6,8 +7,9 @@
 }
 
 .batCourses{
+    font-family: 'Monda', sans-serif;
     min-height: 50vh;
-    background-color: #50E5CB;
+    background-color: #A5EFE2;
     color: #2C2F36;
 }
 

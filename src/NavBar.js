@@ -1,24 +1,26 @@
 import React from 'react';
 import "./NavBar.css";
+import "./About.css";
 import {Link} from 'react-router-dom';
+import icon_home from "./assets/icon_home.png"
 
 function NavBar(){
 
   return(
-      <nav className ="navBar">
+      <section className ="navBar">
+          <Link className ="navLink" to = "/">
+            <p>Home</p>
+          </Link>
+
           <Link className ="navLink" to = "/sobre">
-            <div>Sobre</div>
+            <p>Sobre/Contato</p>
           </Link>
 
           <Link className ="navLink" to = "/habilidades">
-            <div>Habilidades Técnicas</div>
+            <p>Habilidades/Cursos</p>
           </Link>
 
-          <Link className ="navLink" to = "/sobre">
-            <div>Redes Sociais</div>
-          </Link>
-
-      </nav>
+      </section>
   );
 }
 

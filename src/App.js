@@ -1,6 +1,5 @@
 import React from 'react';
 import "./App.css";
-import NavBar from './NavBar';
 import Home from "./Home";
 import About from "./About"
 import Habilidades from "./Habilidades"
@@ -18,7 +17,6 @@ function App(){
           <h1>João Victor Teixeira Batista</h1>
         </section>
         
-        <NavBar />
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/sobre" component={About}/>
